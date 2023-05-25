@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: #0d6dfd41;
+}
+
+div.table-game{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.box{
+    border: 2px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.box-toogled{
+    background-color: green;
+    color: white;
+}
+
+.box-explosion{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
